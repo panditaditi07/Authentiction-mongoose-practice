@@ -1,0 +1,20 @@
+{
+  "name": "authentiction-mongoose-practice",
+  "version": "1.0.0",
+  "description": "restful api in node.js,mongo-db  and express for user-login and logout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditi Pandit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "nodemon": "^2.0.6"
+  }
+}
