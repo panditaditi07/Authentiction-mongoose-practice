@@ -1,3 +1,5 @@
+const User = require("./models/user");
+const { auth } = require("./middlewares/auth");
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyparser = require("body-parser");
