@@ -29,9 +29,8 @@ mongoose.connect(
   }
 );
 
-app.get("/", (req, res) => {
-  res.status(200).send("Welcome to login,sign-up api");
-});
+// app.get("/api",
+// });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
